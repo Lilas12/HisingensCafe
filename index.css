@@ -1,0 +1,129 @@
+ body {
+   background-color: #8a817c;
+
+ }
+
+ @media screen and (min-width: 500px) {
+   .container {
+     display: flex;
+     flex-direction: row;
+     /*flex-direction: column;*/
+   }
+ }
+
+ @media screen and (max-width: 500px) {
+   .container {
+     display: flex;
+     flex-direction: column;
+   }
+ }
+
+
+ .container h2 {
+   font-size: 100px;
+   font-family: serif;
+
+
+ }
+
+
+ ul {
+   color: #8a817c;
+   margin-top: auto;
+   text-align: right;
+   list-style-type: none;
+
+ }
+
+
+ #backgroundbild {
+   background: url(coffe.jpg);
+   background-size: cover;
+   height: 162vh;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+
+ }
+
+
+ .Drinks {
+   width: 100%;
+   margin-top: auto;
+   text-align: center;
+
+ }
+
+ h2 {
+   font-size: 70px;
+   margin: 0;
+
+ }
+
+ p {
+   color: #0a0400;
+   font-size: 30px;
+   line-height: 40px;
+   padding: 30px;
+
+ }
+
+
+ .coffe {
+   background-color: #e0afa0;
+   flex-basis: content;
+   margin-bottom: 6%;
+   padding: 23px;
+   border-radius: 40px;
+   box-sizing: border-box;
+   justify-content: space-between;
+
+ }
+
+
+ #Hot {
+   background: url(coffe-jpg.jpeg);
+   background-size: contain;
+   height: 23vh;
+
+ }
+
+ #Cold {
+   background: url(cola.jpg);
+   background-size: contain;
+   height: 23vh;
+   flex-wrap: wrap;
+ }
+
+ #socialmedia {
+   width: auto;
+   height: auto;
+   margin: auto;
+ }
+
+ #socialmedia h1 {
+   color: #0d0602;
+   font-size: 20px;
+   margin-bottom: auto;
+ }
+
+ .box {
+   color: #0d0601;
+
+   height: fit-content;
+   box-sizing: border-box;
+   border-top: 10px;
+   border-radius: 2px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 55%;
+ }
+
+ p {
+   color: #180610;
+   font-size: 25px;
+   font-style: italic;
+   margin-left: auto;
+   margin-right: auto;
+ }

@@ -1,0 +1,109 @@
+body {
+  background-color: #e0afa0;
+}
+
+.containerDish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+
+ul {
+  margin-top: 30px;
+  text-align: right;
+  list-style-type: none;
+}
+
+/*.frukost {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 100px;
+  text-align: center;
+}*/
+
+h1 {
+  font-size: 50px;
+  font-family: serif;
+  text-align: center;
+}
+
+/*ol {
+  font-size: 30px;
+  text-align: center;
+  justify-content: space-evenly;
+}*/
+
+#hummus {
+
+  /*background: url(hummus.jpg);*/
+  flex-basis: content;
+  /* background-size: cover;*/
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  /* box-sizing: border-box;'*/
+  /* flex-wrap: wrap; */
+  overflow: hidden;
+  width: 500px;
+}
+
+#ägg {
+  /*background: url(ägg.jpg);*/
+  flex-basis: content;
+  /*background-size: contain;*/
+  height: 10px;
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#ost {
+  /*background: url(ost.jpg);*/
+  flex-basis: content;
+  /* background-size: 10%;*/
+  /* height: vh;*/
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p {
+  color: #140c06;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  padding: 10px;
+  text-align: center;
+}
